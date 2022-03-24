@@ -41,7 +41,6 @@ jobs:
       - name: Checkout fog_lib
         uses: actions/checkout@v2
         with:
-          path: fog_lib
           fetch-depth: 0 # fetch the whole history
 
       - name: Build
