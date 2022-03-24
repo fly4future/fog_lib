@@ -5,13 +5,11 @@
 #include <complex>
 
 #include <gtest/gtest.h>
-#include <log4cxx/logger.h>
 
 #include <random>
 
 using namespace fog_lib::geometry;
 using namespace std;
-using cx = std::complex<double>;
 
 /* randd() //{ */
 
