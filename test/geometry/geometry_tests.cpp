@@ -248,7 +248,7 @@ TEST(TESTSuite, unwrapAngle) {
     }
   }
 
-  EXPECT_TRUE(0);
+  EXPECT_TRUE(result);
 }
 
 //}
