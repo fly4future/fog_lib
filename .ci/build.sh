@@ -8,7 +8,7 @@ MY_PATH=`pwd`
 
 echo "Starting build"
 
-mkdir -p ~/mrs_workspace/src
+mkdir -p ~/ros2_workspace/src
 cd ~/ros2_workspace/src
 ln -s "$MY_PATH" 
 
