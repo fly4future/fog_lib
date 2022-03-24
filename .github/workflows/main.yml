@@ -37,7 +37,11 @@ jobs:
 
     steps:
 
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: get ros2 distro
+        uses: ros-tooling/setup-ros@v0.2
+        with:
+          required-ros-distributions: galactic
+
       - name: Checkout fog_lib
         uses: actions/checkout@v2
         with:
